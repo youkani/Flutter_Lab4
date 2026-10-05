@@ -6,7 +6,11 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: (Scaffold(
-        body: GradientContainer(),
+        body: GradientContainer(
+                const Color.fromARGB(255, 176, 230, 252),
+                const Color.fromARGB(255, 184, 180, 236),
+                const Color.fromARGB(255, 196, 164, 235),
+        ),
       )),
     ),
   );
